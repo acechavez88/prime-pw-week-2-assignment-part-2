@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// WE make a variable called 'Dane'; its a string so its given quotations ,''.
-//
-//
-//
+// WE make a variable called 'name' and set it to 'Dane'; its a string so its given quotations ,''.
+// We check for conditional if variable 'name' with a === sign for an exact match for variable 'Mary'.
+//if true, console.log should read, 'Hi, mary' but if false, the conditional will run else and read, 'how do you do?'
+//We console.log 'How do you do?' since variable 'Dane' does not match 'Mary'.
 
 //CODE
 /*
