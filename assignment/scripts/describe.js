@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
+// We make a variable called 'secret'. We also make and namne another variable 'code' with a value of 123;
 //
 //
 //
