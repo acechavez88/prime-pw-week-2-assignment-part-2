@@ -46,9 +46,9 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a variable called 'secret'. We also make and namne another variable 'code' with a value of 123;
-//
-//
-//
+// we create a conditional to check if variable 'code' is an exact match for 123; we assign secret to the value of 'super'.
+// then we update variable code to equal code or '123' and multipy by 2 (code * 2) which equals 246.
+// check conditional if code '246' is greater than 250; then secret equals duper. we console.log super which should return 'super'.
 
 //CODE
 /*
