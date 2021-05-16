@@ -137,13 +137,14 @@ let colorTwo = 'blue';
 let mix = true;
 
 //I would consider writing a compound conditional
-// for example (colorOne == red && colorTwo == blue) instead of changing the value of colorOne.
+// for example if (mix === true && colorOne == 'red' && colorTwo == 'blue')  instead of changing the value of colorOne.
 if (mix === true) {
   colorOne = 'purple';
 }
 //the code is
 //missing a console.log syntax. lets include it so the conditional reads if mix is true
 // console. log, "its purple" for example.
+console.log('its purple');
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
