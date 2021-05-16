@@ -130,13 +130,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//We could either rename variables in the description to fit the code or vice versa
+// since the variable is incorrect according to the description.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//I would consider writing a compound conditional
+// for example (colorOne == red && colorTwo == blue) instead of changing the value of colorOne.
 if (mix === true) {
   colorOne = 'purple';
 }
+//the code is
+//missing a console.log syntax. lets include it so the conditional reads if mix is true
+// console. log, "its purple" for example.
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
