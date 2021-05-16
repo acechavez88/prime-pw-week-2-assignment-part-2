@@ -164,7 +164,34 @@ console.log('keep the food!')
 }
 // im not sure which situation would require temp and time to throw away food?
 //perishables perhaps. I feel we need more information to make a new variable to consider
-//different food types with varying degrees of perishability. 
+//different food types with varying degrees of perishability. using a switch code perhaps:
+
+const temp = 40;
+let meats = 30;
+let produce = 25;
+let fruits = 31;
+
+switch (true) {
+
+    case temp >= 0-10:
+        console.log("A");
+        break;
+
+    case temp >= 10-20:
+        console.log("B");
+        break;
+
+    case temp >= 20-29:
+        console.log("C");
+        break;
+
+    case temp >= 30-39:
+        console.log("D");
+        break;
+
+    default:
+        console.log("F");
+    }
 
 */
 
