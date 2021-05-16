@@ -71,9 +71,9 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // we make multiple variables each with values let isStudent = true; let age = 34; and let zip = 55407;
-//
-//
-//
+// make a combo conditional with "&&to check if 'isStudent' is a west coast student. since zip is not greater than 8000, conditional
+// goes to else if. second else if combo conditional  isstudent doesnt equal 'false', and age is lesser than 30 then condtional goes to second else if;
+// second to last else if equals true, so we console.log (welcome to prime)
 
 //CODE
 /*
