@@ -158,6 +158,14 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+// would it benefit us if we included a else statement? for example:
+// else {
+console.log('keep the food!')
+}
+// im not sure which situation would require temp and time to throw away food?
+//perishables perhaps. I feel we need more information to make a new variable to consider
+//different food types with varying degrees of perishability. 
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
