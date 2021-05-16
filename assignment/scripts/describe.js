@@ -70,7 +70,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
+// we make multiple variables each with values let isStudent = true; let age = 34; and let zip = 55407;
 //
 //
 //
