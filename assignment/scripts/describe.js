@@ -203,9 +203,31 @@ switch (true) {
 let age = 21;
 const minAge = 21;
 
+// lets switch the variables in the if statement for clarity sake since the console.console.log
+//suggests no entry since we are trying to filter values less than 21 into establishment.
+// lets write this so if anyone under the age of 21 is denied entry.
+if(age < minAge) {
+  console.log('no entry');
+}
+
+//lets get ride of the equal '=' sign since the value should allow anyone 21 or over to enter.
+// the else will default to enter if var is 21 and over as it should.
+
+// this is the original CODE
 if(minAge <= age) {
   console.log('no entry');
 } else {
+  console.log('enter');
+}
+
+//suggested code
+let age = 21;
+const minAge = 21;
+
+if(age < minAge) {
+  console.log('no entry');
+}
+else {
   console.log('enter');
 }
 */
