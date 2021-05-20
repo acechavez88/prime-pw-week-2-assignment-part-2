@@ -155,43 +155,15 @@ console.log('its purple');
 let temp = 40;
 const time = 4;
 
+//We can rewrite code to read  if (temp > 39 && time >= 4) since the DESCRIPTION
+//is asking for both the temp to be greater than and the time to be greater
+//or equal.
+//INSTEAD:
+if (temp > 39 && time >= 4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-// would it benefit us if we included a else statement? for example:
-// else {
-console.log('keep the food!')
-}
-// im not sure which situation would require temp and time to throw away food?
-//perishables perhaps. I feel we need more information to make a new variable to consider
-//different food types with varying degrees of perishability. using a switch code perhaps:
-
-const temp = 40;
-let meats = 30;
-let produce = 25;
-let fruits = 31;
-
-switch (true) {
-
-    case temp >= 0-10:
-        console.log("A");
-        break;
-
-    case temp >= 10-20:
-        console.log("B");
-        break;
-
-    case temp >= 20-29:
-        console.log("C");
-        break;
-
-    case temp >= 30-39:
-        console.log("D");
-        break;
-
-    default:
-        console.log("F");
-    }
 
 */
 
