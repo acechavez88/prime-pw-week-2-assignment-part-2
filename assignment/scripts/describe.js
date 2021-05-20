@@ -133,6 +133,8 @@ if (number >= 2) {
 //lets reassign variables according to description
 // since the variable is incorrect according to the description.
 // should be let colorOne = 'blue' and colorTwo = 'red'.
+let purple = (colorOne +colorTwo)
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
