@@ -130,22 +130,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-//We could either rename variables in the description to fit the code or vice versa
+//lets reassign variables according to description
 // since the variable is incorrect according to the description.
+// should be let colorOne = 'blue' and colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//I would consider writing a compound conditional
-// for example if (mix === true && colorOne == 'red' && colorTwo == 'blue')  instead of changing the value of colorOne.
 if (mix === true) {
   colorOne = 'purple';
-}
-//the code is
-//missing a console.log syntax. lets include it so the conditional reads if mix is true
-// console. log, "its purple" for example.
-console.log('its purple');
-*/
+}*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
@@ -171,35 +165,15 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
+//notes: lets swap the console.log entries so that if(minAge <= age) is true,
+//console.log ('enter') and else { 'no entry'}.
+
 /*
 let age = 21;
 const minAge = 21;
-
-// lets switch the variables in the if statement for clarity sake since the console.console.log
-//suggests no entry since we are trying to filter values less than 21 into establishment.
-// lets write this so if anyone under the age of 21 is denied entry.
-if(age < minAge) {
-  console.log('no entry');
-}
-
-//lets get ride of the equal '=' sign since the value should allow anyone 21 or over to enter.
-// the else will default to enter if var is 21 and over as it should.
-
-// this is the original CODE
 if(minAge <= age) {
   console.log('no entry');
 } else {
-  console.log('enter');
-}
-
-//suggested code
-let age = 21;
-const minAge = 21;
-
-if(age < minAge) {
-  console.log('no entry');
-}
-else {
   console.log('enter');
 }
 */
